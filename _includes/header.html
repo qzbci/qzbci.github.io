@@ -10,7 +10,7 @@
         <div class="header__brand">
           {%- comment -%} {%- include svg/logo.svg -%} {%- endcomment -%}
 
-          <img src="/assets/images/company/logo.png" class="top-company-logo-img" alt="logo" />
+          <a href="/"><img src="/assets/images/company/logo.png" class="top-company-logo-img" alt="logo" /></a>
 
           {%- assign _paths_root = site.paths.root | default: site.data.variables.default.paths.root  -%}
           {%- include snippets/get-nav-url.html path=_paths_root -%}
