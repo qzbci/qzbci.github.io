@@ -1,3 +1,23 @@
 /* start custom scss snippet */
 
 /* end custom scss snippet */
+
+
+.top-company-logo-img {
+  width: 21%;
+}
+
+
+@media (max-width: 500px) {
+  .top-company-logo-img {
+    width: 40%;
+  }
+}
+
+
+.article__footer {
+  display: none;
+}
+.edit-on-github {
+  display: none;
+}
